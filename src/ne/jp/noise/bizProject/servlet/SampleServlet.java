@@ -22,8 +22,6 @@ public class SampleServlet extends HttpServlet {
 
         request.setCharacterEncoding("Shift_JIS");
 
-        System.out.println("Test");
-
         String name = request.getParameter("name");
         String message = "Hello," + name + " !!";
 
