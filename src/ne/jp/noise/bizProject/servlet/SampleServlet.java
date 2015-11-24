@@ -15,18 +15,18 @@ import java.io.IOException;
 public class SampleServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        request.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("Shift_JIS");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        request.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("Shift_JIS");
 
         String name = request.getParameter("name");
         String message = "Hello," + name + " !!";
 
         /* XMLテキストの出力 */
-        response.getWriter().println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+        response.getWriter().println("<?xml version=\"1.0\" encoding=\"Shift_JIS\"?>");
         response.getWriter().println("<APP-INFO>");
         response.getWriter().println("<SERVLET_NAME>SampleServlet</SERVLET_NAME>");
         response.getWriter().println("<MESSAGE>" + message + "</MESSAGE>");

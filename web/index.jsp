@@ -5,14 +5,14 @@
   Time: 10:10
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=Shift_JIS" language="java" %>
 <html>
 <head>
     <title>Biz Project</title>
 </head>
 <body>
-    <div>BizDesignerã¨ã®é€£æºãƒ†ã‚¹ãƒˆ</div>
+    <div>BizDesigner‚Æ‚Ì˜AŒgƒeƒXƒg</div>
 
-    <div><a href="${pageContext.request.contextPath}/sampleServlet" title="SampleServletã‚’å‘¼ã¶">SampleServletã‚’å‘¼ã¶</a></div>
+    <div><a href="${pageContext.request.contextPath}/sampleServlet" title="SampleServlet‚ğŒÄ‚Ô">SampleServlet‚ğŒÄ‚Ô</a></div>
 </body>
 </html>
